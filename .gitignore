@@ -1,0 +1,6 @@
+diccionario/node_modules
+diccionario/.env
+diccionario/.env.local
+diccionario/.env.development
+diccionario/.env.test
+diccionario/.vscode

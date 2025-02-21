@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  },
+  "name": "diccionario",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "herramientas a usar:\r NodeJS con Express \r Conexion con mongodb local\r Uso de cors, variables de entorno",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "cors",
+    "dotenv",
+    "diccionario",
+    "definiciones"
+  ],
+  "author": "Osvaldo Villalba",
+  "license": "MIT"
+}
