@@ -6,6 +6,7 @@ const logSchema = new Schema({
     accion: { type: String, required: true },
     entidad: { type: String, required: true },
     entidad_id: { type: String, required: true },
+    cambios: { type: String, required: true },
     fecha: { type: Date, default: Date.now }
 });
 
