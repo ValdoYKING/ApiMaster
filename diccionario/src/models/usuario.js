@@ -1,6 +1,6 @@
 // src/models/usuario.js
 import { Schema, model } from 'mongoose';
-import bcrypt from 'bcrypt.js';
+import bcrypt from 'bcrypt';
 
 /* Creacion del esquema de usuario para la base de datos */
 const usuarioSchema = new Schema({

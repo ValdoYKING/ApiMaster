@@ -1,5 +1,5 @@
 // src/controllers/diccionario_controller.js
-import Diccionario from '../controllers/diccionario_controller.js';
+import Diccionario from '../models/diccionario.js';
 import { registrarLog } from '../middlewares/logMiddleware.js';
 
 //Obtener la definicion de una palabra

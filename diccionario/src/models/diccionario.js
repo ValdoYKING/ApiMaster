@@ -1,7 +1,7 @@
 // src/models/diccionario.js
 import { Schema, model } from 'mongoose';
 
-const diccionarioSchema = newSchema({
+const diccionarioSchema = new Schema({
     palabra: { type: String, required: true },
     definicion: { type: String, required: true }
 }, { timestamps: true });
